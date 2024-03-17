@@ -4,7 +4,8 @@
   "description": "Serverless webpack example using ecma script",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npx serverless deploy"
+    "deploy": "npx serverless deploy",
+    "local": "npx serverless invoke local -f awsCostNotifier"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
